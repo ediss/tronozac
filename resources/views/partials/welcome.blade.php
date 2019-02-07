@@ -3,18 +3,19 @@
         <div class="row h-100 align-items-center">
             <div class="col-12 col-md">
                 <div class="wellcome-heading">
-                    <h2>Tronožac</h2>
+                <img src="{{url('')}}/img/naslov.png" alt=""><br/>
+                    <!-- <h2>Tronožac</h2> -->
                     <!--<h3>T</h3>-->
                     <p>Sve što ti treba za tvoju savršenu fotografiju.</p>
                 </div>
-                   <!--  <div class="get-start-area">
-                         Form Start -->
-                       <!--  <form action="#" method="post" class="form-inline">
-                            <input type="email" class="form-control email" placeholder="name@company.com">
-                            <input type="submit" class="submit" value="Get Started">
-                        </form> -->
-                        <!-- Form End 
-                    </div> -->
+                    <div class="get-start-area">
+                  <!--       Form Start -->
+                         <form action="#" method="post" class="form-inline">
+                            <input type="email" class="form-control email" placeholder="name@example.com">
+                            <input type="submit" class="submit" value="Poruči">
+                        </form>
+                        <!-- Form End -->
+                    </div>
             </div>
         </div>
     </div>

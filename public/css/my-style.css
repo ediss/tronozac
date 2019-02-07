@@ -1,0 +1,9 @@
+.purple {
+    background-color:#5b32b4;
+    border-color:#5b32b4;
+}
+
+.purple:hover {
+    cursor:pointer;
+    background-color:#5b32b4;
+}

@@ -5,7 +5,10 @@
             <div class="menu_area">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <!-- Logo -->
-                    <a class="navbar-brand" href="#">logo</a>
+                    <a class="navbar-brand " href="#"><img src="{{url('')}}/img/logo.png" class = "img-fluid" alt=""></a>
+                    <div class="sing-up-button d-lg-none">
+                            <a href="#">Besplatna dostava</a>
+                        </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <!-- Menu Area -->
                     <div class="collapse navbar-collapse" id="ca-navbar">
@@ -18,9 +21,7 @@
                             <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
                         </ul>
 
-                        <div class="sing-up-button d-lg-none">
-                            <a href="#">Sign Up Free</a>
-                        </div>
+
                     </div>
                 </nav>
             </div>
@@ -28,7 +29,7 @@
         <!-- Signup btn -->
         <div class="col-12 col-lg-2">
             <div class="sing-up-button d-none d-lg-block">
-                <a href="#">Sign Up Free</a>
+                <a href="#"> <i class="fas fa-truck"></i> Besplatna dostava</a>
             </div>
         </div>
     </div>

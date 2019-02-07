@@ -5,7 +5,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Colorlib App - App Landing Page</title>
+    <title>Tronozac.rs</title>
 
     <!-- Favicon -->
     <link rel="icon" href="../img/core-img/favicon.ico">
@@ -15,3 +15,8 @@
 
     <!-- Responsive CSS -->
     <link href="../css/responsive.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link href="../css/my-style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">

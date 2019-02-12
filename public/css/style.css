@@ -1,5 +1,5 @@
 /* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
+:: Template Name: Colorlib App - App Landing Page
 :: Template Author: Colorlib
 :: Template Author URI: https://colorlib.com/
 :: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
@@ -383,7 +383,7 @@ p {
     min-width: 178px;
     line-height: 46px;
     text-align: center;
-    border-radius: 24px 24px 24px 0px;
+    border-radius: 24px 24px 0px 24px;
 }
 
 .sing-up-button > a:hover {
@@ -398,17 +398,18 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #060606;
+    /*background-color: #131228;*/
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    height: 70px;
+    height: 90px;
     position: fixed;
     top: 0;
     z-index: 99;
 }
 
 .header_area.sticky .menu_area .navbar-brand {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .header_area.sticky .menu_area #nav .nav-link {
@@ -444,7 +445,7 @@ p {
 }
 
 .welcome-thumb {
-    width: 45%;
+    /*! width: 45%; */
     position: absolute;
     bottom: -130px;
     right: 85px;
@@ -514,11 +515,14 @@ p {
 }
 
 .get-start-area .submit:hover {
-    background: #6f52e5;
+    background: none;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
+    cursor:pointer;
+    border-radius: 24px 24px 24px 0px;
+    border: 2px solid #fb397d;
 }
 
 .wellcome-heading > p {
@@ -754,7 +758,7 @@ p {
     background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
     background: -o-linear-gradient(right, #7873ed, #a865e1);
     background: linear-gradient(to left, #7873ed, #a865e1);
-    padding: 180px 0 80px 0;
+    padding: 80px 0 80px 0;
     top: -100px;
 }
 

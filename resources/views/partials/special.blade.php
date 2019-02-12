@@ -17,7 +17,7 @@
                             <i class="ti-mobile" aria-hidden="true"></i>
                         </div>
                         <h4>Jednostavan za upotrebu</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <p>TRONOŽAC ima jednostavan mehanizam koji se prilagođava dimenzijama različitih smart telefona. Jak je i pouzdan pa ne morate brinuti da će vam telefon ispasti. Ceo sistem je prikačen za rotirajuću glavu tako da možete podesiti bilo koji ugao kamere!</p>
                     </div>
                 </div>
                 <!-- Single Special Area -->
@@ -27,7 +27,7 @@
                             <i class="ti-ruler-pencil" aria-hidden="true"></i>
                         </div>
                         <h4>Prilagodljiv</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <p>TRONOŽAC ima nogare koji su napravljeni od savitljivog materijala što omogućava instalaciju i na nezgodnim površinama. Jednostavno ga možete podesiti na neravnim površinama, ili zakačiti čak i za objekte u pokretu!</p>
                     </div>
                 </div>
                 <!-- Single Special Area -->
@@ -37,7 +37,7 @@
                             <i class="ti-settings" aria-hidden="true"></i>
                         </div>
                         <h4>Kompaktan</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <p>TRONOŽAC se lako montira i još lakše sklapa. Ne zauzima mnogo mesta tako da ga možete spakovati u ranac, tašnu, pa čak i dublji džep! Nije težak, tako da ćete i zaboraviti da ga nosite sa sobom - sve dok vam ne zatreba, a onda ćete se obradovati što je sve vreme bio tu!</p>
                     </div>
                 </div>
             </div>
@@ -47,29 +47,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="special_description_img">
-                            <img src = "../img/bg-img/special.png" alt="">
+                        <div class="special_description_img  text-center">
+                            <img src = "{{url('')}}/img/test.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-5 ml-xl-auto">
-                        <div class="special_description_content">
-                            <h2>Our Best Propositions for You!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                            <div class="app-download-area">
-                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
-                                    <!-- Google Store Btn -->
-                                    <a href="#">
-                                        <i class="fa fa-android"></i>
-                                        <p class="mb-0"><span>available on</span> Google Store</p>
-                                    </a>
-                                </div>
-                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
-                                    <!-- Apple Store Btn -->
-                                    <a href="#">
-                                        <i class="fa fa-apple"></i>
-                                        <p class="mb-0"><span>available on</span> Apple Store</p>
-                                    </a>
-                                </div>
+                        <div class="special_description_content text-center">
+                            <h2>Najprodavaniji model!</h2>
+                            <p>Dosadilo vam je da vam svaka druga fotografija bude selfi, jer baš kada poželite da se fotografišete nikoga nema u blizini! </p>
+                            <p><i>Kada biste samo mogli da pravite kvalitetne i profesionalne fotografije bez ičije pomoći!</i></p>
+                            <p>Predstavljamo vam TRONOŽAC – vašu "treću ruku", koju lako možete spakovati u džep ili tašnu i više nikada nećete propustiti dobar kadar za savršenu fotografiju.</p>
+                            <p>Postavite ga na ravnu površinu, ili podesite pomoću savitljivih nogara na nezgodnijim mestima, uključite tajmer i napravite profesionalne fotografije POTPUNO SAMI!</p>
+                            <div class="Order">
+                                <button type="button" class="btn btn-block btn-primary purple" data-toggle="modal" data-target="#exampleModal">Poruči</button>
                             </div>
                         </div>
                     </div>

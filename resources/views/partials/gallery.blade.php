@@ -14,10 +14,14 @@
                 <div class="col-12">
                     <!-- App Screenshots Slides  -->
                     <div class="app_screenshots_slides owl-carousel">
-                        <div class="single-shot">
-                            <img src = "../img/scr-img/app-1.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
+
+
+                        @foreach($tripods as $tripod)
+                            <div class="single-shot">
+                                <img src = "{{url($tripod->img_url)}}" alt="">
+                            </div>
+                        @endforeach
+                       <!--  <div class="single-shot">
                             <img src = "../img/scr-img/app-2.jpg" alt="">
                         </div>
                         <div class="single-shot">
@@ -31,7 +35,7 @@
                         </div>
                         <div class="single-shot">
                             <img src = "../img/scr-img/app-3.jpg" alt="">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

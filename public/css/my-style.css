@@ -1,0 +1,23 @@
+.purple {
+    background-color:#5b32b4;
+    border-color:#5b32b4;
+}
+
+.purple:hover {
+    cursor:pointer;
+    background-color:#5b32b4;
+}
+
+.no-border {
+    border:none;
+    margin-top:15px;
+}
+.special_description_img {
+    width:60%;
+}
+
+
+.pink {
+    background-color:#fb397d;
+    color:white;
+}

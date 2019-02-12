@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
-});
+}); */
+Route::get('/', 'HomeController@index');
+
+Route::post('Contact-Us', 'OrderController@index')->name('order');
+

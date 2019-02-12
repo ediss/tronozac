@@ -34,12 +34,12 @@
 
 
     <!-- ***** Video Area Start ***** -->
-    <div class="video-section">
+    <!-- <div class="video-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12"> -->
                     <!-- Video Area Start -->
-                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                    <!-- <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
                         <div class="video-play-btn">
                             <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     </section>
     <!-- ***** Video Area End ***** -->
 
@@ -56,6 +56,11 @@
         @include('partials/cool-facts')
     </section>
     <!-- ***** Cool Facts Area End ***** -->
+
+
+    <section>
+@include('partials/models')
+</section>
 
     <!-- ***** App Screenshots Area Start ***** -->
     <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="gallery">
@@ -76,33 +81,27 @@
     </section>
     <!-- ***** Contact Us Area End ***** -->
 
+    <!-- ***** Model order start ***** -->
+    @include('partials.order-pop-up');
+    <!-- ***** Model order End ***** -->
+
     <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+    <footer class="footer-social-icon text-center">
         <!-- footer logo -->
         <div class="footer-text">
-            <h2>Ca.</h2>
-        </div>
+<!--             <img src="{{(url(''))}}/img/Tronozac2.jpg" alt="">
+ -->        </div>
         <!-- social icon-->
         <div class="footer-social-icon">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="active fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
         </div>
-        <div class="footer-menu">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+
         <!-- Foooter Text-->
         <div class="copyright-text">
             <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            <p>Copyright ©2019 Tronožac </p>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->
@@ -118,7 +117,6 @@
     <!-- Slick Slider Js-->
     <script src="../js/slick.min.js"></script>
     <!-- Footer Reveal JS -->
-    <script src="../js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="../js/active.js"></script>
 </body>

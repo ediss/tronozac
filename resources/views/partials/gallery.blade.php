@@ -11,7 +11,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-8 offset-2">
                     <!-- App Screenshots Slides  -->
                     <div class="app_screenshots_slides owl-carousel">
 
@@ -21,22 +21,13 @@
                                 <img src = "{{url($tripod->img_url)}}" alt="">
                             </div>
                         @endforeach
-                       <!--  <div class="single-shot">
-                            <img src = "../img/scr-img/app-2.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src = "../img/scr-img/app-3.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src = "../img/scr-img/app-4.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src = "../img/scr-img/app-5.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src = "../img/scr-img/app-3.jpg" alt="">
-                        </div> -->
                     </div>
+
+                    <!-- @foreach($tripods as $tripod)
+                        <div class="col-md-3" style = "float:left;">
+                            <img src="{{url($tripod->img_url)}}" class = "img-fluid" alt="">
+                        </div>
+                    @endforeach -->
                 </div>
             </div>
         </div>

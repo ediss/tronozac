@@ -1,6 +1,12 @@
 
+
     <div class="container h-100">
         <div class="row h-100 align-items-center">
+        @if (Session::has('success'))
+            <div class="alert alert-success" role="alert">
+                {{Session::get('success')}}
+            </div>
+        @endif
             <div class="col-12 col-md-8 col-lg-8">
                 <div class="wellcome-heading text-center  text-lg-left text-xl-left">
                 <img src="{{url('')}}/img/naslov.png" alt=""><br/>

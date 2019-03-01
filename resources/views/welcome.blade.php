@@ -58,14 +58,16 @@
     <!-- ***** Cool Facts Area End ***** -->
 
 
-    <section>
-@include('partials/models')
-</section>
+    <section id = "models">
+        @include('partials/models')
+    </section>
 
     <!-- ***** App Screenshots Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="gallery">
-        @include('partials/gallery')
+
+    <section class="app-screenshots-area bg-white section_padding_0_100 mt-5 clearfix" id="gallery">
+        @php /* @include('partials/gallery')*/ @endphp
     </section>
+
     <!-- ***** App Screenshots Area End *****====== -->
 
     <!-- ***** Pricing Plane Area Start *****==== -->
@@ -93,8 +95,8 @@
  -->        </div>
         <!-- social icon-->
         <div class="footer-social-icon">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="active fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/tronozac.rs/" target="_blank"><i class="active fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-google"></i></a>
         </div>
 
@@ -107,18 +109,21 @@
     <!-- ***** Footer Area Start ***** -->
 
     <!-- Jquery-2.2.4 JS -->
-    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="{{url('')}}/js/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="../js/popper.min.js"></script>
+    <script src="{{url('')}}/js/popper.min.js"></script>
     <!-- Bootstrap-4 Beta JS -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="{{url('')}}/js/bootstrap.min.js"></script>
     <!-- All Plugins JS -->
-    <script src="../js/plugins.js"></script>
+    <script src="{{url('')}}/js/plugins.js"></script>
     <!-- Slick Slider Js-->
-    <script src="../js/slick.min.js"></script>
+    <script src="{{url('')}}/js/slick.min.js"></script>
     <!-- Footer Reveal JS -->
     <!-- Active JS -->
-    <script src="../js/active.js"></script>
+    <script src="{{url('')}}/js/active.js"></script>
+
+    <script src="{{url('')}}/js/my-script.js"></script>
+
 </body>
 
 </html>

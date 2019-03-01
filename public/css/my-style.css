@@ -21,3 +21,12 @@
     background-color:#fb397d;
     color:white;
 }
+
+.soon img{
+    -webkit-filter: blur(5px); /* Safari */
+    filter: blur(8px);
+}
+
+.modal-footer {
+    margin-bottom:30px;
+}

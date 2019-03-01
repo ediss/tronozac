@@ -24,7 +24,7 @@
                 <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
                         <div class="single-icon">
-                            <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                            <i class="fas fa-sliders-h"></i>
                         </div>
                         <h4>Prilagodljiv</h4>
                         <p>TRONOŽAC ima nogare koji su napravljeni od savitljivog materijala što omogućava instalaciju i na nezgodnim površinama. Jednostavno ga možete podesiti na neravnim površinama, ili zakačiti čak i za objekte u pokretu!</p>
@@ -34,7 +34,9 @@
                 <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
                         <div class="single-icon">
+                            <!-- <i class="ti-ruler-pencil" aria-hidden="true"></i> -->
                             <i class="ti-settings" aria-hidden="true"></i>
+
                         </div>
                         <h4>Kompaktan</h4>
                         <p>TRONOŽAC se lako montira i još lakše sklapa. Ne zauzima mnogo mesta tako da ga možete spakovati u ranac, tašnu, pa čak i dublji džep! Nije težak, tako da ćete i zaboraviti da ga nosite sa sobom - sve dok vam ne zatreba, a onda ćete se obradovati što je sve vreme bio tu!</p>

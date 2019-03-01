@@ -7,7 +7,8 @@
                             <h3><span class="counter">40</span>&#43;</h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-arrow-down-a"></i>
+                            <!-- <i class="ion-happy-outline"></i> -->
+                            <i class="fas fa-smile-beam"></i>
                             <p>ZADOVOLJNIH <br> MUŠTERIJA</p>
                         </div>
                     </div>
@@ -19,7 +20,8 @@
                             <h3><span class="counter">60</span>&#43;</h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-happy-outline"></i>
+                            <!-- <i class="ion-arrow-down-a"></i> -->
+                            <i class="fas fa-long-arrow-alt-down"></i>
                             <p>PRODATIH <br> TRONOŽACA</p>
                         </div>
                     </div>
@@ -31,7 +33,8 @@
                             <h3><span class="counter">1000</span>&#43;</h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-person"></i>
+                            <i class="ion fas fa-camera"></i>
+                            <!-- <i class="ion-person"></i> -->
                             <p>SAVRŠENIH <br>FOTOGRAFIJA</p>
                         </div>
                     </div>
@@ -43,7 +46,7 @@
                             <h3><span class="counter">10</span></h3>
                         </div>
                         <div class="cool-facts-content">
-                            <i class="ion-ios-star-outline"></i>
+                            <i class="fas fa-star"></i>
                             <p>TOTAL <br>APP RATES</p>
                         </div>
                     </div>

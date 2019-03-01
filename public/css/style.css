@@ -384,6 +384,7 @@ p {
     line-height: 46px;
     text-align: center;
     border-radius: 24px 24px 0px 24px;
+    /*! font-size: 22px; */
 }
 
 .sing-up-button > a:hover {

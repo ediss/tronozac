@@ -9,7 +9,7 @@
                     <div class="footer-text">
                         <p>Ukoliko imate bilo kakva pitanja, pošaljite nam poruku, odgovorićemo Vam u najbržem roku!</p>
                     </div>
-                   
+
                     <div class="phone-text">
                         <p><span>Phone:</span> +381-66-123-321</p>
                     </div>
@@ -34,6 +34,8 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Vaša E-mail adresa" required>
+                                            <small  class="form-text text-muted">Ne delimo Vašu e-mail adresu i ostale podatke sa drugima</small>
+
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->

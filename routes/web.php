@@ -16,5 +16,5 @@
 }); */
 Route::get('/', 'HomeController@index');
 
-Route::post('Contact-Us', 'OrderController@index')->name('order');
+Route::post('Kontakt', 'OrderController@index')->name('order');
 

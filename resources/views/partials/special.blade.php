@@ -50,7 +50,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="special_description_img  text-center">
-                            <img src = "{{url('')}}/img/test.png" alt="">
+                            <img src = "{{url('')}}/img/tripods/test.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-5 ml-xl-auto">

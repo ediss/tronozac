@@ -58,8 +58,8 @@ class OrderController extends Controller {
             return redirect('/');
         }
         else{
-            Session::flash('error', 'This is a message!');
-            return view('partials.test');
+            Session::flash('error', 'Nešto je pošlo naopako :( Molimo Vas probajte ponovo. Vaš Tronožac.rs');
+            return view('partials.mail');
         }
 
 

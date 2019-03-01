@@ -103,7 +103,7 @@
         <!-- Foooter Text-->
         <div class="copyright-text">
             <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2019 Tronožac </p>
+            <p>Copyright ©2019 Tronožac.rs </p>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->

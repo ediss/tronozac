@@ -18,7 +18,7 @@
                         <!-- Form Start -->
                         <!-- <form action="#" method="post" class="form-inline"> -->
                         <form class = "form-inline">
-                            <input type="email" id="emailstart" class="form-control email" placeholder="name@example.com">
+                            <input type="email" id="emailstart" class="form-control email" placeholder="name@example.com" disabled>
                             <button type="button" class="submit" data-toggle="modal" data-target="#exampleModal">Poruči</button>
                         </form>
                         <!-- Form End -->

@@ -16,5 +16,6 @@
 }); */
 Route::get('/', 'HomeController@index');
 
-Route::post('Kontakt', 'OrderController@index')->name('order');
+Route::post('Porudzbina', 'OrderController@index')->name('order');
+Route::post('Kontakt',    'ContactController@index')->name('contact.submit');
 

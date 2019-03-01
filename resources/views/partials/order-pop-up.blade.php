@@ -63,7 +63,7 @@
 
             <div class="form-group">
                 <label for="label_price">Cena</label>
-                <input type="text" class = "form-control" id = "price" name="price" value = "699 RSD" disabled>
+                <input type="text" class = "form-control" id = "price" name="price" value = "799 RSD" disabled>
             </div>
             <br/><span>**Posle klika na poruči, pozvaćemo Vas da potvrdimo porudzbinu.</span>
 
@@ -87,10 +87,10 @@ $('#myModal').on('shown.bs.modal', function () {
 });
 
 
-$( "#quantity" ).click(function() {
+$( "#quantity" ).on('change', function() {
   var quantity = $('#quantity').val();
 
-  var newPrice = quantity * 699;
+  var newPrice = quantity * 799;
 
   $("#price").val(newPrice+" RSD");
 });

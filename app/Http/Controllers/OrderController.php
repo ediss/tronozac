@@ -48,7 +48,7 @@ class OrderController extends Controller {
             ];
 
             //Mail::send(['text'=>'partials.test'], $data, function($message) use ($data) {
-            Mail::send('partials.test', $data, function($message) use ($data) {
+            Mail::send('partials.mail', $data, function($message) use ($data) {
                 $message->to('tronozact@gmail.com', 'Tronozac.rs')->subject ('Porudzbina');
                 $message->from($data['email'], $data['name'] );
             });

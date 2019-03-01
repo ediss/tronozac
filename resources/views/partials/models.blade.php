@@ -18,7 +18,7 @@
                         </div>
                         <h4>Na izvlacenje</h4>
                         <img src="{{url('')}}/img/izvlacenje.jpg" class = 'img-fluid' alt="">
-                        <button type="button" class="btn btn-block btn-primary purple" data-toggle="modal" data-target="#exampleModal">Vidi više</button>
+                        <button type="button" class="btn btn-block btn-primary purple" data-toggle="modal" data-target="#exampleModal">Poruči</button>
 
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                         </div>
                         <h4>Oktopod</h4>
                         <img src="{{url('')}}/img/tripod.png" class = 'img-fluid' alt="">
-                        <button type="button" class="btn btn-block btn-primary purple" data-toggle="modal" data-target="#exampleModal">Vidi više</button>
+                        <button type="button" class="btn btn-block btn-primary purple" data-toggle="modal" data-target="#exampleModal">Poruči</button>
 
                     </div>
                 </div>

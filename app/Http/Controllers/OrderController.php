@@ -25,7 +25,7 @@ class OrderController extends Controller {
         $quantity   = $request->input('quantity');
         $model      = $request->input('ddl_model');
         $color      = $request->input('color');
-
+        $note       = $request->input('note');
         $order = new Order;
 
         $order->name        = $name;
@@ -44,7 +44,8 @@ class OrderController extends Controller {
                 'phone'     => $phone,
                 'quantity'  => $quantity,
                 'model'     => $model,
-                'color'     => $color
+                'color'     => $color,
+                'notes'     => $note
             ];
 
             //Mail::send(['text'=>'partials.test'], $data, function($message) use ($data) {

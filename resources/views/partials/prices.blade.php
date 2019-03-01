@@ -18,7 +18,7 @@
                         <div class="package-plan">
                             <h5>Na izvlačenje</h5>
                             <div class="ca-price d-flex justify-content-center">
-                                <h4>1199</h4>
+                                <h4>999</h4>
                                 <span>RSD</span>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                             <h5>Oktopod</h5>
                             <div class="ca-price d-flex justify-content-center">
                                 <!-- <h4><del>999</del></h4><br><br> -->
-                                <h4>699</h4><br>
+                                <h4>799</h4><br>
                                 <span>RSD</span>
                             </div>
                         </div>

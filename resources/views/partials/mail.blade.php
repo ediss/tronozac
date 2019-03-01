@@ -10,5 +10,7 @@
        Boja : @if(isset($color))
                 @foreach ($color as $c) {{ $c }}, @endforeach
               @endif
+
+      Napomena @if(isset($note)) {{ $note }} @endif
     </p>
 
